@@ -30,10 +30,19 @@
                     <h3 class="display-4 text-center border-bottom border-primary border-2 d-block col-2 m-auto">ABOUT</h3>
                 </div>
                 <p class="text-center lead pb-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa maiores fugiat cumque sunt nemo libero repellat, similique iste facere debitis.</p>
-            </div>       
+            </div>      
             <div class="d-md-flex w-100">
+                <div class="col-1">
+                    <ul class="row align-items-center list-unstyled">
+                        <li><i class="fal fa-home-alt p-2"></i></li>
+                        <li><i class="fal fa-user text-light p-2 rounded-circle bg-primary"></i></li>
+                        <li><i class="fal fa-file p-2"></i></li>
+                        <li><i class="fal fa-layer-group p-2"></i></li>
+                        <li><i class="fal fa-envelope p-2"></i></li>
+                    </ul>
+                </div> 
                 <div class="col-md">
-                    <img src="./imgs/Yousef shaban.jpg" class="img-fluid w-100" alt="Yousef">
+                    <img src="./imgs/Yousef shaban.jpg" class="img-fluid w-100 rounded" alt="Yousef">
                 </div>
                 <div class="col-md p-5">
                     <div>
@@ -42,20 +51,20 @@
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam, explicabo!</p>
                 <div class="details">
                     <div class="row">
-                        <p class="col"><span class="fw-bold">Birthday:</span> 11 Nov 2000</p>
-                        <p class="col"><span class="fw-bold">Age:</span> 21</p>
+                        <p class="col"><i class="far fa-angle-right text-primary fw-bold me-1"></i><span class="fw-bold">Birthday:</span> 11 Nov 2000</p>
+                        <p class="col"><i class="far fa-angle-right text-primary fw-bold me-1"></i><span class="fw-bold">Age:</span> 21</p>
                     </div>
                     <div class="row">
-                        <p class="col"><span class="fw-bold">Website:</span> <a href="https://github.com/yousef7472">My GitHub</a></p>
-                        <p class="col"><span class="fw-bold">Degree:</span> Master</p>
+                        <p class="col"><i class="far fa-angle-right text-primary fw-bold me-1"></i><span class="fw-bold">Website:</span> <a href="https://github.com/yousef7472">My GitHub</a></p>
+                        <p class="col"><i class="far fa-angle-right text-primary fw-bold me-1"></i><span class="fw-bold">Degree:</span> Master</p>
                     </div>
                    <div class="row">
-                        <p class="col"><span class="fw-bold">Phone:</span> +201207851832</p>
-                        <p class="col"><span class="fw-bold">Email:</span> yousef7shaban@gmail.com</p>
+                        <p class="col"><i class="far fa-angle-right text-primary fw-bold me-1"></i><span class="fw-bold">Phone:</span> +201207851832</p>
+                        <p class="col"><i class="far fa-angle-right text-primary fw-bold me-1"></i><span class="fw-bold">Email:</span> yousef7shaban@gmail.com</p>
                    </div>
                     <div class="row">
-                        <p class="col"><span class="fw-bold">City:</span> Giza, Egypt</p>
-                        <p class="col"><span class="fw-bold">Freelance:</span> Available</p>
+                        <p class="col"><i class="far fa-angle-right text-primary fw-bold me-1"></i><span class="fw-bold">City:</span> Giza, Egypt</p>
+                        <p class="col"><i class="far fa-angle-right text-primary fw-bold me-1"></i><span class="fw-bold">Freelance:</span> Available</p>
                     </div>
                 </div>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus, sunt. Debitis natus soluta ipsum commodi inventore rerum beatae laborum, ullam dolor dignissimos magni aperiam totam vitae corrupti minima sit, corporis molestiae! Laborum sed doloremque cumque quaerat fuga cupiditate perspiciatis quae.</p>
@@ -276,23 +285,56 @@
             <div class="m-5">
                 <h3 class="display-4 text-center border-bottom border-primary border-2 d-block col-3 m-auto">CONTACT</h3>
             </div>
-            <form class="row g-3 w-50 m-auto">
-                <div class="col-md-6">
-                  <input type="text" class="form-control" id="inputName14" placeholder="Your Name">
+            <div class="container d-md-flex">
+                <div class="information">
+                    <ul>
+                        <li class="row align-items-center">
+                            <div class="icon col">
+                                <i class="far fa-map-marker-alt text-primary lead"></i>
+                            </div>
+                            <div class="col-10">
+                                <h4>Location:</h4>
+                                <p>A108 adam Street, New York, ny 535022</p>
+                            </div>
+                        </li>
+                        <li class="row align-items-center">
+                            <div class="icon col">
+                                <i class="fal fa-envelope text-primary lead"></i>
+                            </div>
+                            <div class="col-10">
+                                <h4>Email:</h4>
+                                <p>info@example.com</p>
+                            </div>
+                        </li>
+                        <li class="row align-items-center">
+                            <div class="icon col">
+                                <i class="fas fa-mobile-alt text-primary lead"></i>
+                            </div>
+                            <div class="col-10">
+                                <h4>Call:</h4>
+                                <p>+201207851832</p>
+                            </div>
+                        </li>
+                    </ul>
                 </div>
-                <div class="col-md-6">
-                    <input type="email" class="form-control" id="inputEmail4" placeholder="Your Email" required>
-                </div>
-                <div class="col-12">
-                    <input type="text" class="form-control" id="inputSubject14" placeholder="Subject">
-                  </div>
-                <div class="col-12">
-                    <input type="text" class="form-control" id="inputMessage14" placeholder="Message">
-                </div>
-                <div class="col-12 d-flex justify-content-end">
-                    <button type="submit" class="text-light bg-primary rounded-pill p-2 ps-4 pe-4 border-0">Send Message</button>
-                </div>
-            </form>
+                <form class="row g-3 w-50 m-auto">
+                    <div class="col-md-6">
+                      <input type="text" class="form-control" id="inputName14" placeholder="Your Name">
+                    </div>
+                    <div class="col-md-6">
+                        <input type="email" class="form-control" id="inputEmail4" placeholder="Your Email" required>
+                    </div>
+                    <div class="col-12">
+                        <input type="text" class="form-control" id="inputSubject14" placeholder="Subject">
+                      </div>
+                    <div class="col-12">
+                        <input type="text" class="form-control" id="inputMessage14" placeholder="Message">
+                    </div>
+                    <div class="col-12 d-flex justify-content-end">
+                        <button type="submit" class="text-light bg-primary rounded-pill p-2 ps-4 pe-4 border-0">Send Message</button>
+                    </div>
+                </form>
+            </div>
         </section>
     </main>
     <!--               start footer       -->
