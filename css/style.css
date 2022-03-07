@@ -1,7 +1,4 @@
-body {
-    font-family: "Cairo",Tahoma, "huria";
-}
-
+body {font-family: "Cairo",Tahoma, "huria";}
 .resume .container .row .col-md::before {
     content: "";
     height: 14px;
@@ -13,58 +10,6 @@ body {
     position: absolute;
     left: -1%;
 }
-
-/*      start slider style        */
-.slider {
-    background: #303030;
-    text-align: center;
-}
-.slider .text {
-    color: white;
-    padding: 50px;
-}
-.slider .text p {
-    width: 55%;
-    margin: 20px auto;
-}
-.slider button {
-    border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
-}
-section #carouselExampleCaptions {
-    height: max-content;
-}
-.carousel-indicators [data-bs-target] {
-    width: 12px;
-    height: 13px;
-    border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
-    border: 1px solid #0d6efd;
-} 
-
-.carousel-indicators {
-    color: #0d6efd;
-}
-
 .carousel-indicators button.active {
     background-color: #0d6efd;
 }
-.carousel-inner {
-    overflow:visible;
-}
-.carousel-caption {
-    color: black;
-}
-.carousel-item img {
-    border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
-} 
